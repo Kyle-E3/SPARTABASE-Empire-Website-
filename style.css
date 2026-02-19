@@ -1,0 +1,26 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+}
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(90deg, #8e44ad, #e74c3c);
+  color: #fff;
+}
+header h1 { margin:0; font-size:2.5em; letter-spacing:2px; }
+header p, header h2 { margin-top:5px; font-size:1.2em; font-weight:normal; }
+section { padding:20px; max-width:1000px; margin:auto; }
+.artist-list { display:flex; flex-wrap:wrap; justify-content:center; gap:30px; }
+.artist-card, .artist-photo-card { background:#1c1c1c; padding:15px; border-radius:15px; width:250px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease; }
+.artist-card:hover, .artist-photo-card:hover { transform:scale(1.05); box-shadow:0 10px 25px rgba(0,0,0,0.6); }
+.artist-card img, .artist-photo-card img { max-width:200px; border-radius:10px; margin-bottom:10px; }
+.artist-card h3, .artist-photo-card h3 { margin:10px 0 5px 0; }
+.artist-card a, .artist-photo-card a, ol li a, ul li a { text-decoration:none; color:#f39c12; font-weight:bold; }
+.artist-card a:hover, .artist-photo-card a:hover, ol li a:hover, ul li a:hover { color:#e74c3c; }
+.artist-photo { max-width:400px; display:block; margin:20px auto; border-radius:15px; box-shadow:0 10px 20px rgba(0,0,0,0.6); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.artist-photo:hover { transform: scale(1.05); box-shadow: 0 15px 25px rgba(0,0,0,0.8); }
+footer { text-align:center; padding:15px; background:#1c1c1c; margin-top:20px; font-size:0.9em; color:#bbb; }
